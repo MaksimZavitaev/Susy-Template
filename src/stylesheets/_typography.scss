@@ -1,0 +1,50 @@
+@import "compass/typography/vertical_rhythm";
+
+$base-font-size: 16px;
+$base-line-height: 22px;
+$rhythm-unit: "rem";
+$grid-background-baseline-color: white;
+
+@include establish-baseline;
+
+h1 {
+  @include adjust-font-size-to(34px, 2);
+  @include margin-leader(1);
+  @include margin-trailer(1);
+  text-align: center;
+}
+
+h2 {
+  @include adjust-font-size-to(30px, 2);
+  @include margin-leader(1);
+  @include margin-trailer(1);
+}
+
+h3 {
+  @include adjust-font-size-to(20px, 1);
+  @include margin-leader(1);
+  @include margin-trailer(1);
+}
+
+h4 {
+  @include adjust-font-size-to(18px, 1);
+  @include margin-leader(1);
+  @include margin-trailer(1);
+}
+
+p {
+  @include margin-leader(1);
+  @include margin-trailer(1);
+}
+
+.article p {
+  @include adjust-font-size-to(16px, 1);
+}
+
+.widget p {
+  @include adjust-font-size-to(14px, 1);
+}
+
+#colophon {
+  text-align: center;
+}
