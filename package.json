@@ -9,5 +9,9 @@
   "author": "Maxim Zavitaev <vskweb@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.8.11",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.0"
   }
 }
