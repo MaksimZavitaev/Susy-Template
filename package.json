@@ -9,6 +9,7 @@
   "author": "Maxim Zavitaev <vskweb@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "browser-sync": "^2.7.6",
     "coffee-script": "^1.9.3",
     "gulp": "^3.8.11",
     "require-dir": "^0.3.0",
