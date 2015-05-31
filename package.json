@@ -1,0 +1,13 @@
+{
+  "name": "sust-template",
+  "version": "0.0.0",
+  "description": "Шаблон на Compass и Susy ========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Zavitaev <vskweb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
