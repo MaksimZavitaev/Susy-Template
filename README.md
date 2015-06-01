@@ -30,14 +30,14 @@ Compass команды:
     sudo apt-get -y install build-essential openssl libssl-dev pkg-config
     cd /usr/src
     sudo wget http://nodejs.org/dist/v0.12.4/node-v0.12.4.tar.gz
-    sudo tar zxf node-v0.12.2.tar.gz
-    sudo rm ./node-v0.12.2.tar.gz
-    cd node-v0.12.2
+    sudo tar zxf node-v0.12.4.tar.gz
+    sudo rm ./node-v0.12.4.tar.gz
+    cd node-v0.12.4
     sudo ./configure
     sudo make
     sudo make install
     cd ~
-    sudo rm -rf /usr/src/node-v0.12.2
+    sudo rm -rf /usr/src/node-v0.12.4
 
 Cкачаем необходимые `Npm` пакеты:
 
